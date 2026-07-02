@@ -1,0 +1,103 @@
+/* ============================================================
+   Travler — Design Tokens (tokens.css) · v1
+   Customer-facing brand for the Spotler Activate travel demo
+   (built on the Shopler foundation; internal codename TRAVEL).
+
+   Direction: sunny, practical, mid-market package-holiday retail.
+   Sand canvas, navy text and chrome, one warm orange accent.
+
+   Fonts — load in <head> (Google Fonts) or self-host:
+     Bricolage Grotesque  → display / headlines / wordmark
+     Hanken Grotesk       → body / UI / buttons
+     JetBrains Mono       → prices in data views, debug panel, labels
+   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+   ============================================================ */
+
+:root{
+  /* ---------- Colour · surfaces ---------- */
+  --paper:#F7F3EA;          /* page canvas — sand / off-white */
+  --surface:#FFFFFF;        /* cards, sheets */
+  --surface-sunken:#F1ECDF; /* wells, secondary panels */
+
+  /* ---------- Colour · ink & stone ---------- */
+  --ink:#17324D;            /* primary text — navy */
+  --ink-soft:#60758A;       /* secondary text — muted navy */
+  --stone-600:#6C7A87;      /* muted text */
+  --stone-400:#A2ACB6;      /* hints, disabled */
+  --stone-300:#CDD3D9;      /* strong borders */
+  --line:#E6E0D2;           /* hairline dividers */
+
+  /* ---------- Colour · signature accent (WARM ORANGE) ----------
+     Retheme by swapping these four:
+       Sea      → --accent:#1D7A8C; --accent-press:#155B69;
+       Sunset   → --accent:#E1553B; --accent-press:#BC4530;  */
+  --accent:#FF8A1F;
+  --accent-press:#E0761A;
+  --accent-tint:rgba(255,138,31,.10);
+  --accent-contrast:#FFFFFF;   /* text/icon on accent fills */
+
+  /* ---------- Colour · feedback (quiet, travel-appropriate) ---------- */
+  --success:#2E8F6B;
+  --success-tint:rgba(46,143,107,.10);
+
+  /* ---------- Colour · brand chrome (header, footer, wordmark) ---------- */
+  --navy:#062B49;
+  --navy-deep:#021F36;
+  --sky:#DFF4FF;
+
+  /* ---------- Glass chrome ---------- */
+  --glass:rgba(247,243,234,.72);
+  --glass-line:rgba(23,50,77,.08);
+  --blur:saturate(180%) blur(18px);
+
+  /* ---------- Typography · families ---------- */
+  --font-display:"Bricolage Grotesque",system-ui,sans-serif;
+  --font-sans:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,monospace;
+
+  /* ---------- Typography · scale (fluid where it counts) ---------- */
+  --text-xs:.75rem;                          /* 12 · captions, labels */
+  --text-sm:.8125rem;                        /* 13 */
+  --text-base:1.0625rem;                     /* 17 · body */
+  --text-md:1.25rem;                         /* 20 · lede */
+  --text-lg:1.5rem;                          /* 24 */
+  --text-xl:clamp(1.75rem,3vw,2.125rem);     /* h2 */
+  --text-2xl:clamp(2rem,4vw,2.625rem);       /* section title */
+  --text-display:clamp(3.25rem,8vw,4.75rem); /* big display */
+  --text-hero:clamp(4.5rem,16vw,11rem);      /* wordmark hero */
+
+  /* ---------- Typography · weight / tracking / leading ---------- */
+  --w-regular:400; --w-medium:500; --w-semibold:600; --w-bold:700;
+  --track-tight:-.04em;   /* display / wordmark */
+  --track-snug:-.025em;   /* headings */
+  --track-normal:-.01em;  /* lede / large body */
+  --track-caps:.04em;     /* uppercase labels */
+  --leading-tight:1.05; --leading-snug:1.3; --leading-body:1.6;
+
+  /* ---------- Spacing · 4px base ---------- */
+  --space-1:4px;  --space-2:8px;  --space-3:12px; --space-4:16px;
+  --space-5:20px; --space-6:24px; --space-8:32px; --space-10:40px;
+  --space-12:48px; --space-16:64px; --space-20:88px; --space-24:120px;
+
+  /* ---------- Radius ---------- */
+  --r-sm:10px; --r:14px; --r-lg:22px; --r-pill:999px;
+
+  /* ---------- Elevation ---------- */
+  --shadow-sm:0 1px 2px rgba(6,43,73,.05),0 4px 14px rgba(6,43,73,.05);
+  --shadow:0 1px 2px rgba(6,43,73,.04),0 10px 30px rgba(6,43,73,.06);
+
+  /* ---------- Motion (functional; reduced-motion respected below) ---------- */
+  --dur-fast:.18s; --dur:.3s; --dur-slow:.7s;
+  --ease:cubic-bezier(.2,.7,.2,1);            /* reveals, moves */
+  --ease-spring:cubic-bezier(.34,1.56,.64,1); /* micro-interaction pop */
+
+  /* ---------- Layout ---------- */
+  --container:1080px;
+  --bp-sm:760px; --bp-md:1024px;
+}
+
+/* Honour reduced motion globally — collapse durations to zero.
+   Components should drive transitions/animations off the --dur* tokens. */
+@media (prefers-reduced-motion:reduce){
+  :root{ --dur-fast:0s; --dur:0s; --dur-slow:0s; }
+}

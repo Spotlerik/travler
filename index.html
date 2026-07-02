@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+    Spotler Activate tracker loader.
+    PLACEHOLDER MERCHANT ID — replace SQ-TRAVLER-PLACEHOLDER with the Travel-ICP
+    merchant/container ID before go-live (see README "Open items to confirm").
+    The Travel merchant must have "Travel enabled" switched on, be set to EUR,
+    and have merge-on-User-ID on. This is loader-only: the app fires PageView
+    itself on first render and PageReload on every subsequent soft navigation.
+  -->
+  <script type="text/javascript">
+  (function(s,q,z,l,y){s._sqzl=s._sqzl||[];l=q.createElement('script'),
+  y=q.getElementsByTagName('script')[0];l.async=1;l.type='text/javascript';
+  l.defer=true;l.src=z;y.parentNode.insertBefore(l,y)})
+  (window,document,'https://squeezely.tech/tracker/SQ-TRAVLER-PLACEHOLDER/sqzl.js');
+  </script>
+  <title>Travler</title>
+  <meta name="description" content="Travler — package holidays, city breaks and sunny getaways. Demo storefront for Spotler Activate.">
+  <link rel="icon" type="image/svg+xml" href="assets/travler-monogram.svg">
+  <!-- Brand fonts. Degrade gracefully to system-ui (declared in tokens.css) when offline. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="hdr" id="hdr"></header>
+  <main id="app"></main>
+  <footer class="ftr" id="ftr"></footer>
+
+  <!-- Booking basket drawer -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" aria-label="Booking basket"></aside>
+
+  <!-- Cookie / consent banner (wired to the Activate _sqzl consent API) -->
+  <div id="consent"></div>
+
+  <!-- Data loaded as scripts (mirrors of the JSON) so the shop runs from file:// without fetch/CORS. -->
+  <script src="trips.default.js"></script>
+  <script src="trips.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
