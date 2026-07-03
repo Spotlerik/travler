@@ -1,0 +1,4099 @@
+{
+  "note": "Debug mirror only — Activate's Source must point at the XML feeds, not this file.",
+  "nl-NL": [
+    {
+      "id": "TRV-BCH-001",
+      "title": "Mallorca strandvakantie",
+      "description": "Een ontspannen halfpension-verblijf aan de zonnige kust van Mallorca, met het strand dichtbij en volop tijd om te ontspannen.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-001",
+      "price": 729,
+      "sale_price": 649,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-001-2.jpg",
+      "brand": "Sol Bahia Palma",
+      "language": "nl-NL",
+      "category_ids": [
+        "beach-holidays"
+      ],
+      "category": "Beach holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 657
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 671
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 675
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 668
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 653
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 636
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 625
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 624
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 634
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 650
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 666
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 675
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 672
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-002",
+      "title": "Kreta all inclusive resort",
+      "description": "Een all inclusive strandresort op Kreta met een groot zwembad, ontspannen eten en alles geregeld voor een zorgeloze week.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-002",
+      "price": 899,
+      "sale_price": 799,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-002-2.jpg",
+      "brand": "Aegean Blue Resort",
+      "language": "nl-NL",
+      "category_ids": [
+        "all-inclusive",
+        "last-minute"
+      ],
+      "category": "All inclusive",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 809
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 826
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 831
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 822
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 804
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 783
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 768
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 781
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 801
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 820
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 830
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 827
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-003",
+      "title": "Antalya familieresort",
+      "description": "Tien nachten all inclusive in Belek met een waterpark en kids club, gericht op een voordelige gezinsvakantie.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-003",
+      "price": 899,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-003-2.jpg",
+      "brand": "Belek Family Palace",
+      "language": "nl-NL",
+      "category_ids": [
+        "family-holidays",
+        "last-minute"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 10,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 10,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 10,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 10,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 10,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 10,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 10,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 10,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 10,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 10,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 10,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 10,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 10,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-004",
+      "title": "Tenerife winterzon",
+      "description": "Betrouwbare winterzon op Tenerife, met ontbijt inbegrepen en het strand op loopafstand van het hotel.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-004",
+      "price": 699,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 8,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-004-2.jpg",
+      "brand": "Costa Adeje Sun Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "winter-sun"
+      ],
+      "category": "Winter sun",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 708
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 723
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 727
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 719
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 703
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 685
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 673
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 672
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 683
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 700
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 717
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 726
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 724
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-001",
+      "title": "Barcelona stedentrip",
+      "description": "Een stedentrip van vier nachten in het centrum van Barcelona, dicht bij de bezienswaardigheden, tapasbars en architectuur waar de stad om bekendstaat.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-001",
+      "price": 459,
+      "sale_price": 399,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-001-2.jpg",
+      "brand": "Hotel Eixample Central",
+      "language": "nl-NL",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 404
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 412
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 415
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 411
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 401
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 391
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 384
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 384
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 390
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 400
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 409
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 415
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 413
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-002",
+      "title": "Lissabon weekendtrip",
+      "description": "Een korte break in Lissabon aan de rivier, met ontbijt inbegrepen en eenvoudige toegang tot de eet- en cultuurscene van de oude stad.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-002",
+      "price": 359,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-002-2.jpg",
+      "brand": "Baixa Riverside Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 3,
+          "price": 364
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 3,
+          "price": 371
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 3,
+          "price": 373
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 3,
+          "price": 369
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 3,
+          "price": 361
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 3,
+          "price": 352
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 3,
+          "price": 346
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 3,
+          "price": 345
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 3,
+          "price": 351
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 3,
+          "price": 360
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 3,
+          "price": 368
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 3,
+          "price": 373
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 3,
+          "price": 372
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-003",
+      "title": "Rome cultuurreis",
+      "description": "Vier nachten in het sfeervolle Trastevere, op loopafstand van het historische centrum van Rome en de bekende bezienswaardigheden.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-003",
+      "price": 449,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-003-2.jpg",
+      "brand": "Hotel Trastevere Roma",
+      "language": "nl-NL",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 455
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 464
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 467
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 462
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 452
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 440
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 432
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 432
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 439
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 450
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 461
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 467
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 465
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-004",
+      "title": "Praag stedentrip in de winter",
+      "description": "Een voordelige winterse stedentrip in de oude binnenstad van Praag, ideaal voor een korte trip met een budget.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-004",
+      "price": 389,
+      "sale_price": 329,
+      "currency": "EUR",
+      "stock": 9,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-004-2.jpg",
+      "brand": "Old Town Vltava Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 3,
+          "price": 333
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 3,
+          "price": 340
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 3,
+          "price": 342
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 3,
+          "price": 339
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 3,
+          "price": 331
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 3,
+          "price": 322
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 3,
+          "price": 317
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 3,
+          "price": 316
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 3,
+          "price": 321
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 3,
+          "price": 330
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 3,
+          "price": 338
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 3,
+          "price": 342
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 3,
+          "price": 341
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-001",
+      "title": "Costa Dorada familiepark",
+      "description": "Een gezinsweek met halfpension aan de Costa Dorada, dicht bij het strand en op korte afstand van de pretparken in de regio.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-001",
+      "price": 749,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-001-2.jpg",
+      "brand": "Dorada Parkside Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 759
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 774
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 779
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 771
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 753
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 734
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 721
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 732
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 751
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 778
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 776
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-002",
+      "title": "Rhodos kids club resort",
+      "description": "Een all inclusive familieresort in Faliraki met een begeleide kids club en een zwembad aan het strand.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-002",
+      "price": 849,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-002-2.jpg",
+      "brand": "Faliraki Kids Resort",
+      "language": "nl-NL",
+      "category_ids": [
+        "family-holidays",
+        "last-minute"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 860
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 883
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 874
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 854
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 832
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 817
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 816
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 829
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 851
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 871
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 882
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 879
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-003",
+      "title": "Algarve familie-appartementen",
+      "description": "Zelfverzorgende tuinappartementen in Albufeira, een ontspannen en betaalbare uitvalsbasis voor een gezinsweek bij het strand.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-003",
+      "price": 679,
+      "sale_price": 599,
+      "currency": "EUR",
+      "stock": 10,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-003-2.jpg",
+      "brand": "Albufeira Garden Apartments",
+      "language": "nl-NL",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 607
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 619
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 623
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 616
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 602
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 587
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 577
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 576
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 585
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 600
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 615
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 623
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 620
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-004",
+      "title": "Gran Canaria familiezon",
+      "description": "Een gezinsverblijf met halfpension bij de duinen van Maspalomas, met betrouwbare zon, een zwembad en het strand dichtbij.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-004",
+      "price": 719,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-004-2.jpg",
+      "brand": "Maspalomas Dunes Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 728
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 743
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 748
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 740
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 723
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 705
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 692
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 691
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 702
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 738
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 747
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 745
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-001",
+      "title": "Santorini adults only vakantie",
+      "description": "Adults only cliffside suites in Oia met weids zeezicht, gemaakt voor een rustige luxe ontsnapping.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-001",
+      "price": 1349,
+      "sale_price": 1199,
+      "currency": "EUR",
+      "stock": 2,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-001-2.jpg",
+      "brand": "Oia Cliffside Suites",
+      "language": "nl-NL",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1215
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1239
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1247
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1234
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1206
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1175
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1154
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1153
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1171
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1201
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1231
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1246
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1242
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-002",
+      "title": "Madeira boutiquehotel",
+      "description": "Een boutiqueweek in Funchal, waarbij comfortabele eilandluxe wordt gecombineerd met de wandelpaden van Madeira voor de deur.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-002",
+      "price": 999,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-002-2.jpg",
+      "brand": "Funchal Boutique Lodge",
+      "language": "nl-NL",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1012
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1033
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1039
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1005
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 979
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 962
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 961
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 976
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1001
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1038
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1034
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-003",
+      "title": "Dubrovnik met zeezicht",
+      "description": "Een ontsnapping van vijf nachten met halfpension en uitzicht op de Adriatische Zee, waarbij de oude binnenstad van Dubrovnik wordt gecombineerd met comfort en zeezicht.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-003",
+      "price": 1049,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-003-2.jpg",
+      "brand": "Adriatic View Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1063
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1084
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1091
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1079
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1055
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1010
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1009
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1051
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1077
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1090
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1086
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-004",
+      "title": "Bodrum spa resort",
+      "description": "Een all inclusive spa-resort voor volwassenen aan de Egeïsche kust, gebouwd rond ontspanning en comfort aan het strand.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-004",
+      "price": 1099,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-004-2.jpg",
+      "brand": "Aegean Spa Resort",
+      "language": "nl-NL",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1113
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1136
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1143
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1131
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1105
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 1077
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 1058
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 1057
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 1074
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1101
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1128
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1142
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1138
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-001",
+      "title": "Curacao strandvakantie",
+      "description": "Negen nachten aan de Caribische kust van Curacao, met ontbijt inbegrepen en enkele van de beste duikplekken van de regio dichtbij.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-001",
+      "price": 1299,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-001-2.jpg",
+      "brand": "Willemstad Beach Resort",
+      "language": "nl-NL",
+      "category_ids": [
+        "beach-holidays"
+      ],
+      "category": "Beach holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 9,
+          "price": 1316
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 9,
+          "price": 1343
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 9,
+          "price": 1351
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 9,
+          "price": 1337
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 9,
+          "price": 1306
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 9,
+          "price": 1273
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 9,
+          "price": 1251
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 9,
+          "price": 1249
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 9,
+          "price": 1269
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 9,
+          "price": 1302
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 9,
+          "price": 1333
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 9,
+          "price": 1350
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 9,
+          "price": 1345
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-002",
+      "title": "Kaapverdie eilandvakantie",
+      "description": "Een all inclusive eilandvakantie op Sal, waarbij een lange winter wordt ingeruild voor gegarandeerde zon en strand.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-002",
+      "price": 999,
+      "sale_price": 899,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-002-2.jpg",
+      "brand": "Sal Island All Inclusive",
+      "language": "nl-NL",
+      "category_ids": [
+        "winter-sun",
+        "last-minute"
+      ],
+      "category": "Winter sun",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-003",
+      "title": "Hurghada Rode Zee resort",
+      "description": "Een voordelige all inclusive week aan de Rode Zee, populair bij duikers en liefhebbers van winterzon.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-003",
+      "price": 849,
+      "sale_price": 749,
+      "currency": "EUR",
+      "stock": 8,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-003-2.jpg",
+      "brand": "Red Sea Coral Resort",
+      "language": "nl-NL",
+      "category_ids": [
+        "all-inclusive",
+        "last-minute"
+      ],
+      "category": "All inclusive",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 759
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 774
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 779
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 771
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 753
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 734
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 721
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 732
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 751
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 778
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 776
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-004",
+      "title": "Marrakech riad-trip",
+      "description": "Een korte break in een traditionele riad in de medina van Marrakech, dicht bij de soeks en de foodscene van de stad.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-004",
+      "price": 499,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-004-2.jpg",
+      "brand": "Riad Medina Retreat",
+      "language": "nl-NL",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 506
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 516
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 519
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 513
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 502
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 489
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 480
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 480
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 487
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 500
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 512
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 519
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 517
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-001",
+      "title": "IJsland noorderlicht",
+      "description": "Een winterse break van vier nachten op zoek naar het noorderlicht, met Reykjavik als uitvalsbasis en ontbijt inbegrepen.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-001",
+      "price": 899,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-001-2.jpg",
+      "brand": "Reykjavik Aurora Hotel",
+      "language": "nl-NL",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-002",
+      "title": "Lapland familieavontuur",
+      "description": "Een besneeuwd gezinsavontuur in Rovaniemi, met halfpension en eenvoudige toegang tot winteractiviteiten.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-002",
+      "price": 1399,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-002-2.jpg",
+      "brand": "Rovaniemi Snow Lodge",
+      "language": "nl-NL",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1417
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1446
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1455
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1439
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1407
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1371
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1347
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1345
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1367
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1402
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1436
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1454
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1449
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-003",
+      "title": "Val Thorens skiweek",
+      "description": "Een zelfverzorgende skiweek in Val Thorens, goed geschikt voor groepen die direct toegang tot de piste willen.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-003",
+      "price": 1129,
+      "sale_price": 999,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-003-2.jpg",
+      "brand": "Les 3 Vallees Apartments",
+      "language": "nl-NL",
+      "category_ids": [
+        "ski-holidays",
+        "last-minute"
+      ],
+      "category": "Ski holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1012
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1033
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1039
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1005
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 979
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 962
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 961
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 976
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1001
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1038
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1034
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-004",
+      "title": "Madeira wandelvakantie",
+      "description": "Een week levada-wandelingen en kustlandschap op Madeira, met ontbijt inbegrepen in een lodge langs de wandelroutes.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-004",
+      "price": 849,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 9,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-004-2.jpg",
+      "brand": "Levada Trail Lodge",
+      "language": "nl-NL",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 860
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 883
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 874
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 854
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 832
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 817
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 816
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 829
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 851
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 871
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 882
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 879
+        }
+      ]
+    }
+  ],
+  "en-GB": [
+    {
+      "id": "TRV-BCH-001",
+      "title": "Mallorca beach escape",
+      "description": "A relaxed half-board stay on Mallorca's sunny coast, with the beach close by and plenty of time to unwind.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-001",
+      "price": 729,
+      "sale_price": 649,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-001-2.jpg",
+      "brand": "Sol Bahia Palma",
+      "language": "en-GB",
+      "category_ids": [
+        "beach-holidays"
+      ],
+      "category": "Beach holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 657
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 671
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 675
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 668
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 653
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 636
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 625
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 624
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 634
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 650
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 666
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 675
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 672
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-002",
+      "title": "Crete all inclusive resort",
+      "description": "An all-inclusive beach resort on Crete with a large pool, relaxed dining and everything covered for a stress-free week.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-002",
+      "price": 899,
+      "sale_price": 799,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-002-2.jpg",
+      "brand": "Aegean Blue Resort",
+      "language": "en-GB",
+      "category_ids": [
+        "all-inclusive",
+        "last-minute"
+      ],
+      "category": "All inclusive",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 809
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 826
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 831
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 822
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 804
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 783
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 768
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 781
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 801
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 820
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 830
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 827
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-003",
+      "title": "Antalya family resort",
+      "description": "Ten all-inclusive nights in Belek with a waterpark and kids' club, built around family value.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-003",
+      "price": 899,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-003-2.jpg",
+      "brand": "Belek Family Palace",
+      "language": "en-GB",
+      "category_ids": [
+        "family-holidays",
+        "last-minute"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 10,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 10,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 10,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 10,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 10,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 10,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 10,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 10,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 10,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 10,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 10,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 10,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 10,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-BCH-004",
+      "title": "Tenerife winter sun",
+      "description": "Reliable winter sun on Tenerife, with breakfast included and the beach a short stroll from the hotel.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-BCH-004",
+      "price": 699,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 8,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-BCH-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-BCH-004-2.jpg",
+      "brand": "Costa Adeje Sun Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "winter-sun"
+      ],
+      "category": "Winter sun",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 708
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 723
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 727
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 719
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 703
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 685
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 673
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 672
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 683
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 700
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 717
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 726
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 724
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-001",
+      "title": "Barcelona city break",
+      "description": "A four-night city break in central Barcelona, close to the sights, tapas bars and architecture the city is known for.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-001",
+      "price": 459,
+      "sale_price": 399,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-001-2.jpg",
+      "brand": "Hotel Eixample Central",
+      "language": "en-GB",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 404
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 412
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 415
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 411
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 401
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 391
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 384
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 384
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 390
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 400
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 409
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 415
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 413
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-002",
+      "title": "Lisbon weekend escape",
+      "description": "A short break in riverside Lisbon, with breakfast included and easy access to the old town's food and culture.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-002",
+      "price": 359,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-002-2.jpg",
+      "brand": "Baixa Riverside Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 3,
+          "price": 364
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 3,
+          "price": 371
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 3,
+          "price": 373
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 3,
+          "price": 369
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 3,
+          "price": 361
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 3,
+          "price": 352
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 3,
+          "price": 346
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 3,
+          "price": 345
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 3,
+          "price": 351
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 3,
+          "price": 360
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 3,
+          "price": 368
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 3,
+          "price": 373
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 3,
+          "price": 372
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-003",
+      "title": "Rome culture trip",
+      "description": "Four nights in charming Trastevere, walking distance from Rome's historic centre and its landmark sights.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-003",
+      "price": 449,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-003-2.jpg",
+      "brand": "Hotel Trastevere Roma",
+      "language": "en-GB",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 455
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 464
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 467
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 462
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 452
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 440
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 432
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 432
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 439
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 450
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 461
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 467
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 465
+        }
+      ]
+    },
+    {
+      "id": "TRV-CITY-004",
+      "title": "Prague winter city break",
+      "description": "A good-value winter city break in Prague's old town, ideal for a short trip on a budget.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-CITY-004",
+      "price": 389,
+      "sale_price": 329,
+      "currency": "EUR",
+      "stock": 9,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-CITY-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-CITY-004-2.jpg",
+      "brand": "Old Town Vltava Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 3,
+          "price": 333
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 3,
+          "price": 340
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 3,
+          "price": 342
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 3,
+          "price": 339
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 3,
+          "price": 331
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 3,
+          "price": 322
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 3,
+          "price": 317
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 3,
+          "price": 316
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 3,
+          "price": 321
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 3,
+          "price": 330
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 3,
+          "price": 338
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 3,
+          "price": 342
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 3,
+          "price": 341
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-001",
+      "title": "Costa Dorada family park",
+      "description": "A half-board family week on Costa Dorada, close to the beach and within easy reach of the region's theme parks.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-001",
+      "price": 749,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-001-2.jpg",
+      "brand": "Dorada Parkside Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 759
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 774
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 779
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 771
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 753
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 734
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 721
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 732
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 751
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 778
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 776
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-002",
+      "title": "Rhodes kids club resort",
+      "description": "An all-inclusive family resort in Faliraki with a supervised kids' club and a beachfront pool.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-002",
+      "price": 849,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-002-2.jpg",
+      "brand": "Faliraki Kids Resort",
+      "language": "en-GB",
+      "category_ids": [
+        "family-holidays",
+        "last-minute"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 860
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 883
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 874
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 854
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 832
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 817
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 816
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 829
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 851
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 871
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 882
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 879
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-003",
+      "title": "Algarve family apartments",
+      "description": "Self-catering garden apartments in Albufeira, a relaxed and affordable base for a family week near the beach.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-003",
+      "price": 679,
+      "sale_price": 599,
+      "currency": "EUR",
+      "stock": 10,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-003-2.jpg",
+      "brand": "Albufeira Garden Apartments",
+      "language": "en-GB",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 607
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 619
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 623
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 616
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 602
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 587
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 577
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 576
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 585
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 600
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 615
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 623
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 620
+        }
+      ]
+    },
+    {
+      "id": "TRV-FAM-004",
+      "title": "Gran Canaria family sun",
+      "description": "A half-board family stay near the Maspalomas dunes, with reliable sun, a pool and the beach close by.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-FAM-004",
+      "price": 719,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-FAM-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-FAM-004-2.jpg",
+      "brand": "Maspalomas Dunes Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "family-holidays"
+      ],
+      "category": "Family holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 728
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 743
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 748
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 740
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 723
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 705
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 692
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 691
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 702
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 738
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 747
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 745
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-001",
+      "title": "Santorini adults only escape",
+      "description": "Adults-only cliffside suites in Oia with sweeping sea views, built for a quiet luxury escape.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-001",
+      "price": 1349,
+      "sale_price": 1199,
+      "currency": "EUR",
+      "stock": 2,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-001-2.jpg",
+      "brand": "Oia Cliffside Suites",
+      "language": "en-GB",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1215
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1239
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1247
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1234
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1206
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1175
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1154
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1153
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1171
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1201
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1231
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1246
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1242
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-002",
+      "title": "Madeira boutique hotel",
+      "description": "A boutique week in Funchal, pairing comfortable island luxury with Madeira's hiking trails on the doorstep.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-002",
+      "price": 999,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 7,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-002-2.jpg",
+      "brand": "Funchal Boutique Lodge",
+      "language": "en-GB",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1012
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1033
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1039
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1005
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 979
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 962
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 961
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 976
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1001
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1038
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1034
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-003",
+      "title": "Dubrovnik sea view escape",
+      "description": "A five-night half-board escape overlooking the Adriatic, combining Dubrovnik's old town with sea-view comfort.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-003",
+      "price": 1049,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-003-2.jpg",
+      "brand": "Adriatic View Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1063
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1084
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1091
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1079
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1055
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1010
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1009
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1051
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1077
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1090
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1086
+        }
+      ]
+    },
+    {
+      "id": "TRV-LUX-004",
+      "title": "Bodrum spa resort",
+      "description": "An adults-only all-inclusive spa resort on the Aegean coast, built around relaxation and beachfront comfort.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LUX-004",
+      "price": 1099,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LUX-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LUX-004-2.jpg",
+      "brand": "Aegean Spa Resort",
+      "language": "en-GB",
+      "category_ids": [
+        "luxury-escapes"
+      ],
+      "category": "Luxury escapes",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1113
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1136
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1143
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1131
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1105
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 1077
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 1058
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 1057
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 1074
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1101
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1128
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1142
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1138
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-001",
+      "title": "Curacao beach holiday",
+      "description": "Nine nights on Curacao's Caribbean coast, with breakfast included and some of the region's best diving nearby.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-001",
+      "price": 1299,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-001-2.jpg",
+      "brand": "Willemstad Beach Resort",
+      "language": "en-GB",
+      "category_ids": [
+        "beach-holidays"
+      ],
+      "category": "Beach holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 9,
+          "price": 1316
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 9,
+          "price": 1343
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 9,
+          "price": 1351
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 9,
+          "price": 1337
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 9,
+          "price": 1306
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 9,
+          "price": 1273
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 9,
+          "price": 1251
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 9,
+          "price": 1249
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 9,
+          "price": 1269
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 9,
+          "price": 1302
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 9,
+          "price": 1333
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 9,
+          "price": 1350
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 9,
+          "price": 1345
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-002",
+      "title": "Cape Verde island escape",
+      "description": "An all-inclusive island escape on Sal, trading a long winter for guaranteed sun and beach time.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-002",
+      "price": 999,
+      "sale_price": 899,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-002-2.jpg",
+      "brand": "Sal Island All Inclusive",
+      "language": "en-GB",
+      "category_ids": [
+        "winter-sun",
+        "last-minute"
+      ],
+      "category": "Winter sun",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-003",
+      "title": "Hurghada Red Sea resort",
+      "description": "A well-priced all-inclusive week on the Red Sea, popular with divers and winter-sun seekers alike.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-003",
+      "price": 849,
+      "sale_price": 749,
+      "currency": "EUR",
+      "stock": 8,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-003-2.jpg",
+      "brand": "Red Sea Coral Resort",
+      "language": "en-GB",
+      "category_ids": [
+        "all-inclusive",
+        "last-minute"
+      ],
+      "category": "All inclusive",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 759
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 774
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 779
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 771
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 753
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 734
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 721
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 720
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 732
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 751
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 769
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 778
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 776
+        }
+      ]
+    },
+    {
+      "id": "TRV-LH-004",
+      "title": "Marrakech riad break",
+      "description": "A short break in a traditional riad in Marrakech's medina, close to the souks and the city's food scene.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-LH-004",
+      "price": 499,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 6,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-LH-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-LH-004-2.jpg",
+      "brand": "Riad Medina Retreat",
+      "language": "en-GB",
+      "category_ids": [
+        "city-breaks"
+      ],
+      "category": "City breaks",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 506
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 516
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 519
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 513
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 502
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 489
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 480
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 480
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 487
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 500
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 512
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 519
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 517
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-001",
+      "title": "Iceland northern lights",
+      "description": "A four-night winter break chasing the northern lights, based in Reykjavik with breakfast included.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-001",
+      "price": 899,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 3,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-001.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-001-2.jpg",
+      "brand": "Reykjavik Aurora Hotel",
+      "language": "en-GB",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 4,
+          "price": 911
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 4,
+          "price": 929
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 4,
+          "price": 935
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 4,
+          "price": 925
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 4,
+          "price": 904
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 4,
+          "price": 881
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 4,
+          "price": 866
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 4,
+          "price": 865
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 4,
+          "price": 878
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 4,
+          "price": 901
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 4,
+          "price": 923
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 4,
+          "price": 934
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 4,
+          "price": 931
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-002",
+      "title": "Lapland family adventure",
+      "description": "A snowy family adventure in Rovaniemi, with half board and easy access to winter activities.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-002",
+      "price": 1399,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 4,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-002.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-002-2.jpg",
+      "brand": "Rovaniemi Snow Lodge",
+      "language": "en-GB",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 5,
+          "price": 1417
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 5,
+          "price": 1446
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 5,
+          "price": 1455
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 5,
+          "price": 1439
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 5,
+          "price": 1407
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 5,
+          "price": 1371
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 5,
+          "price": 1347
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 5,
+          "price": 1345
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 5,
+          "price": 1367
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 5,
+          "price": 1402
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 5,
+          "price": 1436
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 5,
+          "price": 1454
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 5,
+          "price": 1449
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-003",
+      "title": "Val Thorens ski week",
+      "description": "A self-catering ski week in Val Thorens, well suited to groups wanting direct access to the slopes.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-003",
+      "price": 1129,
+      "sale_price": 999,
+      "currency": "EUR",
+      "stock": 5,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-003.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-003-2.jpg",
+      "brand": "Les 3 Vallees Apartments",
+      "language": "en-GB",
+      "category_ids": [
+        "ski-holidays",
+        "last-minute"
+      ],
+      "category": "Ski holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 1012
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 1033
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 1039
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 1028
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 1005
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 979
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 962
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 961
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 976
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 1001
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 1025
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 1038
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 1034
+        }
+      ]
+    },
+    {
+      "id": "TRV-ACT-004",
+      "title": "Madeira hiking holiday",
+      "description": "A week of levada walks and coastal scenery on Madeira, with breakfast included at a trail-side lodge.",
+      "link": "https://spotlerik.github.io/travler/#/product/TRV-ACT-004",
+      "price": 849,
+      "sale_price": null,
+      "currency": "EUR",
+      "stock": 9,
+      "image_link": "https://spotlerik.github.io/travler/images/TRV-ACT-004.jpg",
+      "image_link_lifestyle": "https://spotlerik.github.io/travler/images/TRV-ACT-004-2.jpg",
+      "brand": "Levada Trail Lodge",
+      "language": "en-GB",
+      "category_ids": [
+        "adventure-holidays"
+      ],
+      "category": "Adventure holidays",
+      "date_availability": [
+        {
+          "checkin": "2026-07-09",
+          "nights": 7,
+          "price": 860
+        },
+        {
+          "checkin": "2026-07-23",
+          "nights": 7,
+          "price": 878
+        },
+        {
+          "checkin": "2026-08-06",
+          "nights": 7,
+          "price": 883
+        },
+        {
+          "checkin": "2026-08-20",
+          "nights": 7,
+          "price": 874
+        },
+        {
+          "checkin": "2026-09-03",
+          "nights": 7,
+          "price": 854
+        },
+        {
+          "checkin": "2026-09-17",
+          "nights": 7,
+          "price": 832
+        },
+        {
+          "checkin": "2026-10-01",
+          "nights": 7,
+          "price": 817
+        },
+        {
+          "checkin": "2026-10-15",
+          "nights": 7,
+          "price": 816
+        },
+        {
+          "checkin": "2026-10-29",
+          "nights": 7,
+          "price": 829
+        },
+        {
+          "checkin": "2026-11-12",
+          "nights": 7,
+          "price": 851
+        },
+        {
+          "checkin": "2026-11-26",
+          "nights": 7,
+          "price": 871
+        },
+        {
+          "checkin": "2026-12-10",
+          "nights": 7,
+          "price": 882
+        },
+        {
+          "checkin": "2026-12-24",
+          "nights": 7,
+          "price": 879
+        }
+      ]
+    }
+  ]
+}
