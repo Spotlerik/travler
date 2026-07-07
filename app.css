@@ -97,7 +97,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:var(--w-semibold);
 .searchmod{position:relative;z-index:2;margin:calc(-1 * var(--space-12)) auto 0;max-width:calc(var(--container) - var(--space-12));
   background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:var(--space-5) var(--space-6)}
 .searchmod form{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr auto;gap:var(--space-3);align-items:end}
-.searchmod .field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.searchmod .field{display:flex;flex-direction:column;gap:6px;min-width:0;margin-bottom:0}
 .searchmod label{font-size:var(--text-xs);color:var(--stone-600);text-transform:uppercase;letter-spacing:var(--track-caps)}
 .searchmod input,.searchmod select{padding:var(--space-3) var(--space-4);border:1px solid var(--line);
   border-radius:var(--r-sm);font:inherit;font-size:var(--text-sm);background:var(--surface);width:100%}
