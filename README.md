@@ -16,8 +16,9 @@ serve the folder — no build step, no backend.
   `<script>` so the app reads data without `fetch()` (blocked on `file://`).
 - `trips.js` — admin-editable override layer, **empty** in this build (see "Not built
   in this version" below). When empty, `app.js` falls back to `TRIPS_DEFAULT`.
-- `images/` — no real photography ships with this build; see `IMAGE_REQUIREMENTS.md`.
-  Every `<img>` falls back to a category-tinted inline SVG placeholder on error.
+- `images/` — real photography (49 files: 1 hero + 24 trips × primary/lifestyle). See
+  `IMAGE_REQUIREMENTS.md` for what was requested/delivered. Every `<img>` still falls
+  back to a category-tinted inline SVG placeholder if a file is ever missing.
 - `assets/` — the Travler monogram (SVG favicon/logo mark).
 - `activate-feed-nl.xml` / `activate-feed-en.xml` — the two trip feeds Activate reads
   (RSS 2.0, one language each, with `date_availability`). `activate-feed.json` is a
@@ -61,7 +62,6 @@ the real Travel-ICP merchant ID before go-live. That merchant needs "Travel enab
   for the five demo scenarios (see the build spec's "Open items to confirm"). `trips.js`
   is the empty override layer it would normally write to; regenerate feeds with
   `scripts/build-feeds.mjs` instead of the admin's "Save to GitHub".
-- **Real trip photography.** See `IMAGE_REQUIREMENTS.md` for exact filenames and prompts.
 
 ## Running the five demo scenarios
 

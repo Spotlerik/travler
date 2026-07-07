@@ -1,10 +1,18 @@
 # Travler — image requirements
 
-This build ships **no real photography** (see the build spec's "Image plan" and open items).
-Every `<img>` in the app tries the real file path first (stable for the feed) and falls back
-automatically, via an `onerror` handler in `app.js` (`imgWithFallback`), to a category-tinted
-inline SVG placeholder — so the demo never shows a broken-image icon. Drop real files at the
-exact paths below and they are picked up with no code changes.
+**Status: delivered.** All 49 required files (1 hero + 24×2 trip images) are in `images/`,
+verified byte-for-byte against every `image`/`image_lifestyle` field in `trips.default.js`
+and against both feed XMLs — 49/49 filenames match exactly, no extras, no gaps. JPEGs are
+1200×900 (4:3, matches `.card__media`/`.pdp__gallery`); `hero.webp` is 1672×941 (matches
+`.hero__bg`'s `aspect-ratio`). No CSS or code changes were needed to wire them up.
+
+The tables below are now historical documentation of what was requested/generated, kept for
+future reference (e.g. if a trip's photo ever needs regenerating or a new trip is added).
+
+Every `<img>` in the app still tries the real file path first and falls back automatically,
+via an `onerror` handler in `app.js` (`imgWithFallback`), to a category-tinted inline SVG
+placeholder if a file is ever missing or fails to load — confirmed still working (see below),
+and confirmed **not** currently triggered for any of the 49 delivered files.
 
 Prompt template (from the build spec):
 
