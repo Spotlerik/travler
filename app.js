@@ -64,6 +64,26 @@
     "ski-holidays": { en: "Ski holidays", nl: "Skivakanties" },
     "adventure-holidays": { en: "Adventure holidays", nl: "Avontuurlijke vakanties" }
   };
+  // Editorial taglines for the home category section (revealed on hover). Not personalisation —
+  // fixed copy per category, same for every visitor.
+  var CATEGORY_TAGLINE = {
+    "beach-holidays": { en: "Salt air, slow mornings", nl: "Zilte lucht, trage ochtenden" },
+    "city-breaks": { en: "A weekend, well spent", nl: "Een weekend goed besteed" },
+    "all-inclusive": { en: "Everything, already sorted", nl: "Alles al geregeld" },
+    "family-holidays": { en: "Built for every age", nl: "Voor elke leeftijd" },
+    "last-minute": { en: "Go before you overthink it", nl: "Ga voordat je twijfelt" },
+    "luxury-escapes": { en: "Quiet, considered, yours", nl: "Rustig, doordacht, van jou" },
+    "winter-sun": { en: "Chase the warmth", nl: "Achter de warmte aan" },
+    "ski-holidays": { en: "Fresh snow, first tracks", nl: "Verse sneeuw, eerste sporen" },
+    "adventure-holidays": { en: "Somewhere further out", nl: "Ergens verder weg" }
+  };
+  function categoryTagline(slug) { var c = CATEGORY_TAGLINE[slug]; return c ? (state.lang === "nl" ? c.nl : c.en) : ""; }
+  // Fixed category photography (not tied to any trip SKU) for the home bento section.
+  // Base = at-rest shot, hover = crossfade-in shot on hover/focus.
+  var CATEGORY_IMAGE = {};
+  HOME_TILE_SLUGS.forEach(function (slug) {
+    CATEGORY_IMAGE[slug] = { base: "category-" + slug + ".jpg", hover: "category-" + slug + "-hover.jpg" };
+  });
   var BOARD_LABEL = {
     "Half board": { en: "Half board", nl: "Halfpension" },
     "All inclusive": { en: "All inclusive", nl: "All inclusive" },
@@ -612,12 +632,22 @@
   }
 
   /* ---------------- Views ---------------- */
-  function tileHTML(slug, label) {
-    var list = productsForView(slug);
-    var hero = list.slice().sort(function (a, b) { return b.popularity - a.popularity; })[0];
-    return '<a class="tile" href="#/c/' + slug + '">' +
-      (hero ? imgWithFallback(hero.image_lifestyle, hero, "", "") : "") +
-      '<span>' + esc(label) + '</span></a>';
+  var LARGE_TILE_SLUGS = ["beach-holidays", "city-breaks"];
+  function tileHTML(slug) {
+    var label = categoryLabel(slug);
+    var tagline = categoryTagline(slug);
+    var images = CATEGORY_IMAGE[slug];
+    var placeholderRef = { category: slug }; // slugFor(slug) === slug, so the right placeholder hue is picked
+    var isLarge = LARGE_TILE_SLUGS.indexOf(slug) >= 0;
+    return '<a class="tile' + (isLarge ? " tile--lg" : "") + '" href="#/c/' + slug + '" data-slug="' + esc(slug) + '">' +
+      imgWithFallback(images.base, placeholderRef, "tile__img tile__img--base", "") +
+      imgWithFallback(images.hover, placeholderRef, "tile__img tile__img--hover", "") +
+      '<div class="tile__scrim"></div>' +
+      '<div class="tile__copy">' +
+        '<span class="tile__title">' + esc(label) + '</span>' +
+        (tagline ? '<span class="tile__tagline">' + esc(tagline) + '</span>' : "") +
+      '</div>' +
+    '</a>';
   }
 
   function searchModHTML() {
@@ -685,9 +715,7 @@
           gridHTML(recent) + '</section>' : "") +
         '<section class="section">' +
           '<div class="tiles">' +
-            HOME_TILE_SLUGS.map(function (slug) {
-              return tileHTML(slug, categoryLabel(slug));
-            }).join("") +
+            HOME_TILE_SLUGS.map(tileHTML).join("") +
           '</div>' +
         '</section>' +
         '<section class="section">' +

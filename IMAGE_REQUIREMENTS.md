@@ -1,10 +1,13 @@
 # Travler — image requirements
 
-**Status: delivered.** All 49 required files (1 hero + 24×2 trip images) are in `images/`,
-verified byte-for-byte against every `image`/`image_lifestyle` field in `trips.default.js`
-and against both feed XMLs — 49/49 filenames match exactly, no extras, no gaps. JPEGs are
-1200×900 (4:3, matches `.card__media`/`.pdp__gallery`); `hero.webp` is 1672×941 (matches
-`.hero__bg`'s `aspect-ratio`). No CSS or code changes were needed to wire them up.
+**Status: delivered.** All 67 required files are in `images/`: 1 hero + 24×2 trip images
+(verified byte-for-byte against every `image`/`image_lifestyle` field in `trips.default.js`
+and against both feed XMLs — 49/49 filenames match exactly, no extras, no gaps) plus 9×2
+dedicated category images for the home bento section (base + hover per holiday type, not
+tied to any trip SKU). JPEGs are all 1200×900 (4:3, matches `.card__media`/`.pdp__gallery`);
+`hero.webp` is 1672×941 (matches `.hero__bg`'s `aspect-ratio`). No CSS changes were needed to
+wire up the trip photos; the category images required a rework of the home tile markup/CSS
+(base+hover crossfade, editorial title, tagline reveal — see `tileHTML()` in `app.js`).
 
 The tables below are now historical documentation of what was requested/generated, kept for
 future reference (e.g. if a trip's photo ever needs regenerating or a new trip is added).
@@ -31,11 +34,20 @@ not wallpaper.
 |---|---|
 | `images/hero.webp` | Realistic travel website hero photo for a mid-market package-holiday brand. A sunny Mediterranean beach with a hotel terrace in the foreground, warm golden-hour light, clean commercial travel photography, inviting but realistic, no text, no logo, no watermark, no recognisable faces. Wide landscape hero image, approx. 1672×941. |
 
-## Category tiles
+## Category tiles (18 images: 9 categories × base/hover)
 
-No separate category images are needed — the home tiles reuse each category's most popular
-trip's lifestyle image (`image_lifestyle`), the same pattern Shopler uses. Once real trip images
-are in place, the tiles are automatically covered.
+Delivered and wired up. Each of the nine `HOME_TILE_SLUGS` categories has its own fixed
+base and hover photo (not derived from any trip), named `category-<slug>.jpg` /
+`category-<slug>-hover.jpg`:
+
+`category-beach-holidays[-hover].jpg` · `category-city-breaks[-hover].jpg` ·
+`category-all-inclusive[-hover].jpg` · `category-family-holidays[-hover].jpg` ·
+`category-last-minute[-hover].jpg` · `category-luxury-escapes[-hover].jpg` ·
+`category-winter-sun[-hover].jpg` · `category-ski-holidays[-hover].jpg` ·
+`category-adventure-holidays[-hover].jpg`
+
+On hover/focus the tile crossfades from the (desaturated, dimmed) base photo to the full-colour
+hover photo with a slight scale-up, per `.tile__img--base`/`.tile__img--hover` in `app.css`.
 
 ## Trip images (24 trips × 2 = 48 files)
 

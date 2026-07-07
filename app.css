@@ -97,7 +97,7 @@ h1,h2,h3{font-family:var(--font-display);font-weight:var(--w-semibold);
 .searchmod{position:relative;z-index:2;margin:calc(-1 * var(--space-12)) auto 0;max-width:calc(var(--container) - var(--space-12));
   background:var(--surface);border-radius:var(--r-lg);box-shadow:var(--shadow);padding:var(--space-5) var(--space-6)}
 .searchmod form{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr auto;gap:var(--space-3);align-items:end}
-.searchmod .field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.searchmod .field{display:flex;flex-direction:column;gap:6px;min-width:0;margin-bottom:0}
 .searchmod label{font-size:var(--text-xs);color:var(--stone-600);text-transform:uppercase;letter-spacing:var(--track-caps)}
 .searchmod input,.searchmod select{padding:var(--space-3) var(--space-4);border:1px solid var(--line);
   border-radius:var(--r-sm);font:inherit;font-size:var(--text-sm);background:var(--surface);width:100%}
@@ -114,15 +114,63 @@ h1,h2,h3{font-family:var(--font-display);font-weight:var(--w-semibold);
 .section__head a{font-size:var(--text-sm);color:var(--stone-600);border-bottom:1px solid var(--line);white-space:nowrap}
 .section__head a:hover{color:var(--ink)}
 
-/* ---------- Category tiles ---------- */
-.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-4)}
-@media(max-width:1024px){.tiles{grid-template-columns:repeat(2,1fr)}}
-.tile{position:relative;display:flex;align-items:flex-end;min-height:200px;padding:var(--space-6);
-  border-radius:var(--r);overflow:hidden;background:var(--surface-sunken);color:var(--ink)}
-.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.tile span{position:relative;z-index:1;background:var(--glass);-webkit-backdrop-filter:var(--blur);
-  backdrop-filter:var(--blur);padding:var(--space-2) var(--space-4);border-radius:var(--r-pill);
-  font-family:var(--font-display);font-weight:var(--w-semibold)}
+/* ---------- Category tiles (editorial bento) ----------
+   Asymmetric grid: beach-holidays + city-breaks run large across the top two rows,
+   the remaining seven holiday types sit in a denser two-row strip below (the last,
+   adventure-holidays, spans two columns to fill the grid evenly). Deliberately not a
+   repeat of the product grid below it. */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);
+  grid-template-rows:180px 180px 160px 160px;gap:var(--space-4);
+  grid-template-areas:
+    "beach beach city city"
+    "beach beach city city"
+    "allinclusive family lastminute luxury"
+    "wintersun ski adventure adventure"}
+.tile[data-slug="beach-holidays"]{grid-area:beach}
+.tile[data-slug="city-breaks"]{grid-area:city}
+.tile[data-slug="all-inclusive"]{grid-area:allinclusive}
+.tile[data-slug="family-holidays"]{grid-area:family}
+.tile[data-slug="last-minute"]{grid-area:lastminute}
+.tile[data-slug="luxury-escapes"]{grid-area:luxury}
+.tile[data-slug="winter-sun"]{grid-area:wintersun}
+.tile[data-slug="ski-holidays"]{grid-area:ski}
+.tile[data-slug="adventure-holidays"]{grid-area:adventure}
+@media(max-width:1024px){
+  .tiles{grid-template-columns:repeat(2,1fr);grid-template-areas:none;grid-template-rows:none}
+  .tile{grid-area:auto!important;min-height:200px}
+  .tile--lg{min-height:240px}
+}
+@media(max-width:480px){.tiles{grid-template-columns:1fr}}
+
+.tile{position:relative;display:block;border-radius:var(--r);overflow:hidden;
+  background:var(--surface-sunken);color:#fff}
+.tile__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  transform:scale(1.06);transition:opacity .45s ease,transform .45s ease,filter .45s ease}
+.tile__img--base{filter:grayscale(35%) brightness(.88)}
+.tile__img--hover{opacity:0}
+@media(hover:hover){
+  .tile:hover .tile__img--base,.tile:focus-visible .tile__img--base{opacity:0;filter:grayscale(0) brightness(1);transform:scale(1.12)}
+  .tile:hover .tile__img--hover,.tile:focus-visible .tile__img--hover{opacity:1;transform:scale(1.12)}
+}
+.tile__scrim{position:absolute;inset:0;z-index:1;
+  background:linear-gradient(0deg,var(--navy-deep) 0%,rgba(2,31,54,.55) 40%,transparent 68%)}
+.tile__copy{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:var(--space-5);
+  display:flex;flex-direction:column;gap:4px}
+.tile__title{font-family:var(--font-display);font-weight:var(--w-medium);
+  font-size:clamp(1.1rem,1.6vw,1.375rem);letter-spacing:var(--track-snug);color:#fff}
+.tile--lg .tile__title{font-size:clamp(1.375rem,2.4vw,1.875rem)}
+.tile__tagline{font-size:var(--text-sm);color:var(--sky);max-width:26ch;
+  opacity:0;transform:translateY(6px);transition:opacity .35s ease,transform .35s ease}
+@media(hover:hover){.tile:hover .tile__tagline,.tile:focus-visible .tile__tagline{opacity:1;transform:translateY(0)}}
+@media(hover:none){
+  /* touch devices can't hover: skip the desaturate-then-reveal trick, show the base
+     photo in full colour with its tagline outright instead of an effect nobody triggers */
+  .tile__img--base{filter:none;transform:scale(1.06)}
+  .tile__tagline{opacity:1;transform:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .tile__img,.tile__tagline{transition-duration:.01s;transform:none!important}
+}
 
 /* ---------- Trust strip ---------- */
 .trust{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--space-6);padding:var(--space-10) 0;
