@@ -100,7 +100,19 @@ h1,h2,h3{font-family:var(--font-display);font-weight:var(--w-semibold);
 .searchmod .field{display:flex;flex-direction:column;gap:6px;min-width:0;margin-bottom:0}
 .searchmod label{font-size:var(--text-xs);color:var(--stone-600);text-transform:uppercase;letter-spacing:var(--track-caps)}
 .searchmod input,.searchmod select{padding:var(--space-3) var(--space-4);border:1px solid var(--line);
-  border-radius:var(--r-sm);font:inherit;font-size:var(--text-sm);background:var(--surface);width:100%}
+  border-radius:var(--r-sm);font:inherit;font-size:var(--text-sm);background:var(--surface);width:100%;
+  height:48px;box-sizing:border-box;line-height:20px;margin:0;
+  appearance:none;-webkit-appearance:none;-moz-appearance:none}
+/* type="date" keeps its own calendar-picker-indicator box even at a shared height in
+   Chrome/Edge — pin it so it can't push the control taller than the others. */
+.searchmod input[type="date"]{padding-right:var(--space-3)}
+.searchmod input[type="date"]::-webkit-calendar-picker-indicator{width:16px;height:16px;padding:0;margin:0}
+/* Custom chevron to replace the native <select> arrow removed by appearance:none. */
+.searchmod select{
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M5 8l5 5 5-5' fill='none' stroke='%2360758A' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat:no-repeat;background-position:right var(--space-4) center;background-size:12px;
+  padding-right:calc(var(--space-4) + 12px + var(--space-2));
+}
 @media(max-width:880px){
   .searchmod{margin-top:var(--space-6);padding:var(--space-5)}
   .searchmod form{grid-template-columns:1fr 1fr}
