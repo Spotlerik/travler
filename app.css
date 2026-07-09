@@ -371,11 +371,11 @@ select{font:inherit;font-size:var(--text-sm);padding:var(--space-2) var(--space-
 /* Section Base Style */
 .pdp-section{opacity:1;transform:translateY(0);transition:opacity 400ms var(--ease), transform 400ms var(--ease)}
 .pdp-section[data-reveal]{opacity:0;transform:translateY(8px)}
+.pdp-section[data-reveal].is-revealed{opacity:1;transform:translateY(0)}
 
 /* Reduced Motion */
 @media(prefers-reduced-motion:reduce){
-  .pdp-section[data-reveal]{opacity:0}
-  .pdp-section[data-reveal].is-revealed{opacity:1;transform:translateY(0)}
+  .pdp-section[data-reveal]{opacity:1;transform:none;transition:none}
 }
 
 /* ---------- Traveller / quantity stepper ---------- */
