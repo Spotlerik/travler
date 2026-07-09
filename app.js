@@ -154,6 +154,7 @@
       departure_airports: "Departure airports", hotel: "Hotel", rooms_available: "Rooms available",
       rooms_low: "Only {n} rooms left", fully_booked: "Fully booked",
       included_flights: "Flights", included_hotel: "Hotel", included_transfers: "Transfers", included_baggage: "Baggage",
+      what_is_included: "What's included", trip_details: "Trip details",
       highlights: "Highlights", start_booking: "Start booking", continue_booking: "Continue booking",
       price_alert_title: "Get price alerts for this trip", price_alert_cta: "Alert me",
       avail_alert_title: "Tell me when this trip is available again", avail_alert_cta: "Notify me",
@@ -218,6 +219,7 @@
       departure_airports: "Vertrekluchthavens", hotel: "Hotel", rooms_available: "Kamers beschikbaar",
       rooms_low: "Nog {n} kamers beschikbaar", fully_booked: "Volgeboekt",
       included_flights: "Vluchten", included_hotel: "Hotel", included_transfers: "Transfers", included_baggage: "Bagage",
+      what_is_included: "Wat is inbegrepen", trip_details: "Reisgegevens",
       highlights: "Hoogtepunten", start_booking: "Start boeking", continue_booking: "Verder boeken",
       price_alert_title: "Ontvang prijsalerts voor deze reis", price_alert_cta: "Meld mij",
       avail_alert_title: "Laat me weten als deze reis weer beschikbaar is", avail_alert_cta: "Meld mij",
@@ -866,58 +868,125 @@
     if (!p) return '<div class="wrap"><div class="empty-state">Not found</div></div>';
     var st = stockState(p);
     var stockTxt = st === "sold" ? t("fully_booked") : st === "low" ? t("rooms_low", { n: p.stock }) : t("rooms_available");
+    var badgeClass = st === "sold" ? "badge--sold" : st === "low" ? "badge--low" : "badge--available";
     var metaRows = [
       [t("destination"), p.destination + ", " + p.country], [t("hotel"), p.hotel],
       [t("board"), boardLabel(p.board)], [t("nights"), String(p.nights)],
       [t("departure_airports"), p.departureAirports.join(", ")]
     ];
+    var highlights = highlightsFor(p);
+    var topHighlights = highlights.slice(0, 4);
     var alertBlock = (st === "sold" || st === "low")
-      ? '<div class="addon-alert">' +
+      ? '<div class="addon-alert addon-alert--avail">' +
           '<p>' + esc(t("avail_alert_title")) + '</p>' +
           '<form data-avail-alert="' + esc(p.sku) + '"><input type="email" placeholder="' + esc(t("email")) + '" required>' +
             '<button class="btn btn--sm" type="submit">' + esc(t("avail_alert_cta")) + '</button></form>' +
         '</div>' : "";
-    return '<div class="wrap">' +
+    var priceHtml = priceHTML(p);
+    var wasPriceStr = p.sale_price_eur ? '<span class="pdp-price__was">' + esc(money(p.price_eur)) + '</span>' : '';
+    return '<div class="wrap pdp-page" data-product-sku="' + esc(p.sku) + '">' +
       '<nav class="breadcrumb"><a href="#/">Travler</a> / <a href="#/c/' + esc(slugFor(p.category)) + '">' + esc(categoryLabel(slugFor(p.category))) + '</a> / ' + esc(name(p)) + '</nav>' +
-      '<div class="pdp" data-product-sku="' + esc(p.sku) + '">' +
-        '<div class="pdp__gallery">' +
-          imgWithFallback(p.image, p, "", name(p)) +
-          imgWithFallback(p.image_lifestyle, p, "", name(p)) +
-        '</div>' +
-        '<div class="pdp__info">' +
-          '<div class="pdp__dest">' + esc(p.destination) + ', ' + esc(p.country) + '</div>' +
-          '<h1>' + esc(name(p)) + '</h1>' +
-          '<div class="pdp__stars">' + starsHTML(p.rating) + '<span class="eyebrow">' + esc(p.hotel) + '</span></div>' +
-          '<div class="pdp__price">' + esc(t("from_pp")) + ' ' + priceHTML(p) + '</div>' +
-          '<div class="stock stock--' + st + '">' + esc(stockTxt) + '</div>' +
-          '<div class="perso-slot" data-activate="pdp-social"></div>' +
-          alertBlock +
-          '<p class="pdp__desc">' + esc(shortDesc(p)) + '</p>' +
-          '<div class="pdp__included">' +
-            '<span class="included-chip">' + esc(t("included_flights")) + '</span>' +
-            '<span class="included-chip">' + esc(t("included_hotel")) + '</span>' +
-            '<span class="included-chip">' + esc(t("included_transfers")) + '</span>' +
-            '<span class="included-chip">' + esc(t("included_baggage")) + '</span>' +
-          '</div>' +
-          '<h3 style="font-size:var(--text-sm);text-transform:uppercase;letter-spacing:var(--track-caps);color:var(--stone-600)">' + esc(t("highlights")) + '</h3>' +
-          '<ul class="pdp__highlights">' + highlightsFor(p).map(function (h) { return "<li>" + esc(h) + "</li>"; }).join("") + '</ul>' +
-          '<div class="pdp__actions">' +
-            '<button class="btn btn--block" data-start-booking="' + esc(p.sku) + '"' + (st === "sold" ? " disabled" : "") + '>' +
-              esc(st === "sold" ? t("sold_out") : t("start_booking")) + '</button>' +
-            saveButtonInlineHTML(p.sku) +
-          '</div>' +
-          '<div class="addon-alert">' +
-            '<p>' + esc(t("price_alert_title")) + '</p>' +
-            '<form data-price-alert="' + esc(p.sku) + '"><input type="email" placeholder="' + esc(t("email")) + '" required>' +
-              '<button class="btn btn--sm" type="submit">' + esc(t("price_alert_cta")) + '</button></form>' +
-          '</div>' +
-          '<div class="pdp__meta"><dl>' +
-            metaRows.map(function (r) { return "<dt>" + esc(r[0]) + "</dt><dd>" + esc(r[1]) + "</dd>"; }).join("") +
-          '</dl></div>' +
+      '<div class="pdp-hero">' +
+        imgWithFallback(p.image, p, "", name(p), ' class="pdp-hero__img"') +
+        '<div class="pdp-hero__scrim"></div>' +
+        '<div class="pdp-hero__content">' +
+          '<div class="pdp-hero__eyebrow">' + esc(p.destination) + ', ' + esc(p.country) + '</div>' +
+          '<h1 class="pdp-hero__title">' + esc(name(p)) + '</h1>' +
         '</div>' +
       '</div>' +
+      '<div class="pdp-hero__meta">' +
+        '<div class="pdp-hero__stars">' + starsHTML(p.rating) + '</div>' +
+        '<div class="pdp-hero__hotel">' + esc(p.hotel) + '</div>' +
+      '</div>' +
+      '<div class="pdp-section pdp-urgency" data-reveal>' +
+        '<div class="pdp-urgency__price">' +
+          '<div class="pdp-price">' +
+            wasPriceStr +
+            '<span class="pdp-price__now">' + priceHtml + '</span>' +
+          '</div>' +
+        '</div>' +
+        '<div class="pdp-urgency__badge ' + badgeClass + '">' + esc(stockTxt) + '</div>' +
+      '</div>' +
+      '<div class="perso-slot" data-activate="pdp-social" style="margin:var(--space-5) 0"></div>' +
+      alertBlock +
+      '<div class="pdp-section pdp-pullquote" data-reveal>' +
+        '<p class="pdp-pullquote__text">' + esc(shortDesc(p)) + '</p>' +
+      '</div>' +
+      '<div class="pdp-section pdp-highlights" data-reveal>' +
+        '<h2 class="pdp-highlights__title">' + esc(t("highlights")) + '</h2>' +
+        '<div class="pdp-highlights__grid">' +
+          topHighlights.map(function (h, i) {
+            return '<div class="pdp-highlight-item" data-index="' + i + '">' +
+              '<div class="pdp-highlight-icon">' + highlightIcon(i) + '</div>' +
+              '<div class="pdp-highlight-label">' + esc(h) + '</div>' +
+            '</div>';
+          }).join("") +
+        '</div>' +
+      '</div>' +
+      '<div class="pdp-section pdp-room-image" data-reveal>' +
+        '<div class="pdp-room-image__label">The room</div>' +
+        imgWithFallback(p.image_lifestyle, p, "", name(p), ' class="pdp-room-image__img"') +
+      '</div>' +
+      '<div class="pdp-section pdp-included" data-reveal>' +
+        '<h2 class="pdp-included__title">' + esc(t("what_is_included")) + '</h2>' +
+        '<div class="pdp-included__chips">' +
+          '<div class="pdp-chip">' +
+            '<svg class="pdp-chip__icon" viewBox="0 0 24 24"><path d="M10 19.5l-7-7a1 1 0 0 1 1.41-1.41L10 16.67l12.59-12.6a1 1 0 0 1 1.41 1.41l-14 14z"/></svg>' +
+            '<span>' + esc(t("included_flights")) + '</span>' +
+          '</div>' +
+          '<div class="pdp-chip">' +
+            '<svg class="pdp-chip__icon" viewBox="0 0 24 24"><path d="M19 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5 14H5V6h9v10zm4-4h-3V6h3v6z"/></svg>' +
+            '<span>' + esc(t("included_hotel")) + '</span>' +
+          '</div>' +
+          '<div class="pdp-chip">' +
+            '<svg class="pdp-chip__icon" viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm11 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM5 11l1.5-4.5h11L19 11H5z"/></svg>' +
+            '<span>' + esc(t("included_transfers")) + '</span>' +
+          '</div>' +
+          '<div class="pdp-chip">' +
+            '<svg class="pdp-chip__icon" viewBox="0 0 24 24"><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 18H6V4h12v16z"/></svg>' +
+            '<span>' + esc(t("included_baggage")) + '</span>' +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="pdp-section pdp-meta" data-reveal>' +
+        '<h2 class="pdp-meta__title">' + esc(t("trip_details")) + '</h2>' +
+        '<div class="pdp-meta__table">' +
+          metaRows.map(function (r) {
+            return '<div class="pdp-meta__row">' +
+              '<div class="pdp-meta__label">' + esc(r[0]) + '</div>' +
+              '<div class="pdp-meta__value">' + esc(r[1]) + '</div>' +
+            '</div>';
+          }).join("") +
+        '</div>' +
+      '</div>' +
+      '<div class="pdp-section pdp-actions" data-reveal>' +
+        '<button class="btn btn--block btn--lg" data-start-booking="' + esc(p.sku) + '"' + (st === "sold" ? " disabled" : "") + '>' +
+          esc(st === "sold" ? t("sold_out") : t("start_booking")) + '</button>' +
+        saveButtonInlineHTML(p.sku) +
+      '</div>' +
+      '<div class="addon-alert addon-alert--price">' +
+        '<p>' + esc(t("price_alert_title")) + '</p>' +
+        '<form data-price-alert="' + esc(p.sku) + '"><input type="email" placeholder="' + esc(t("email")) + '" required>' +
+          '<button class="btn btn--sm" type="submit">' + esc(t("price_alert_cta")) + '</button></form>' +
+      '</div>' +
       persoRail("rec-related", t("you_may")) +
+      '<div class="pdp-sticky-bar" data-sticky-bar>' +
+        '<div class="pdp-sticky-bar__content">' +
+          '<div class="pdp-sticky-bar__price">' + priceHtml + ' <span class="pdp-sticky-bar__label">' + esc(t("pp")) + '</span></div>' +
+          '<button class="btn btn--sm" data-start-booking="' + esc(p.sku) + '"' + (st === "sold" ? " disabled" : "") + '>' +
+            esc(t("start_booking")) + '</button>' +
+        '</div>' +
+      '</div>' +
     '</div>';
+  }
+  function highlightIcon(index) {
+    var icons = [
+      '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>',
+      '<svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11zm3.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z"/></svg>',
+      '<svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l20-2V4c0-1.1-.9-2-2-2zm-2 12h-8v2h8v-2z"/></svg>',
+      '<svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>'
+    ];
+    return icons[index % icons.length];
   }
   function saveButtonInlineHTML(sku) {
     var saved = isSaved(sku);
@@ -1181,6 +1250,37 @@
     document.dispatchEvent(new CustomEvent("travler:view", { detail: { route: parts, lang: state.lang } }));
     if (!sqzlBooted) { sqzlBooted = true; }
     else { sqzlPush({ event: "PageReload" }); }
+    if (parts[0] === "product") { initializePDP(); }
+  }
+
+  /* PDP Scroll-Reveal & Sticky Bar */
+  function initializePDP() {
+    var prefersReduced = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
+    var revealElements = document.querySelectorAll("[data-reveal]");
+    var stickyBar = document.querySelector("[data-sticky-bar]");
+    var hero = document.querySelector(".pdp-hero");
+
+    if (revealElements.length > 0 && !prefersReduced) {
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && !entry.target.classList.contains("is-revealed")) {
+            entry.target.classList.add("is-revealed");
+          }
+        });
+      }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
+
+      revealElements.forEach(function (el) { observer.observe(el); });
+    }
+
+    if (stickyBar && hero) {
+      var stickyObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) { stickyBar.classList.add("is-visible"); }
+          else { stickyBar.classList.remove("is-visible"); }
+        });
+      }, { threshold: 0 });
+      stickyObserver.observe(hero);
+    }
   }
 
   /* ---------------- Events (delegated) ---------------- */
